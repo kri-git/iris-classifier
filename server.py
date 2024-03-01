@@ -21,7 +21,7 @@ def predict_species(sepal_length, sepal_width, petal_length, petal_width):
 
 def main():
     st.title("Iris Flower Species Prediction")
-    st.write("This is a web interface where the properties of IRIS flowers like sepal and petal properties are taken as input. Based on the input features, the species of the IRIS flower is predicted.The model is trained based on the IRIS dataset")    
+    st.write("This is a web interface where the properties of IRIS flowers like sepal and petal properties are taken as input. Based on the input features, the species of the IRIS flower is predicted. The model is trained on the IRIS dataset")    
     st.write("Please adjust the slider and click on predict to get the species prediction.")
 
     # Input fields for user to input the measurements
